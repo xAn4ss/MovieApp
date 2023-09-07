@@ -194,7 +194,7 @@ class _movieCardState extends State<movieCard> {
                                             children: [
                                               Container(
                                                 // alignment: Alignment.center,
-                                                height: 38,
+                                                height: 32,
                                                 width: 31,
                                                 child: Icon(
                                                   Icons.watch_later_outlined,
@@ -211,12 +211,12 @@ class _movieCardState extends State<movieCard> {
                                                         const EdgeInsets.only(
                                                             left: 8),
                                                     child: Text(
-                                                      "Release Date",
-                                                      style: GoogleFonts
-                                                          .montserrat(
+                                                      "Release",
+                                                      style:
+                                                          GoogleFonts.poppins(
                                                               color:
                                                                   Colors.white,
-                                                              fontSize: 11,
+                                                              fontSize: 12,
                                                               fontWeight:
                                                                   FontWeight
                                                                       .w600),
